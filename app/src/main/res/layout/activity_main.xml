@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/obv_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Явный интент"/>
+
+    <Button
+        android:id="@+id/not_obv_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Не явный интент"/>
+
+    <Button
+        android:id="@+id/intent_for_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Интент на результат"/>
+
+    <TextView
+        android:id="@+id/m_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>
